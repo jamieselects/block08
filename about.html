@@ -9,11 +9,15 @@
   </head>
   <body>
     <header>
+      <div id="navbar"></div>
+      <script>
+        fetch('navbar.html')
+          .then(response => response.text())
+          .then(html => {
+            document.getElementById('navbar').innerHTML = html;
+          });
+      </script>
       <h1>Jamie Selects</h1>
-      <h2>
-        <a href="index.html">Home</a> <a href="about.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-      </h2>
       <section class="section-class">
         <h3>About Me</h3>
         <p>
