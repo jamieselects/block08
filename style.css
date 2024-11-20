@@ -1,0 +1,78 @@
+/* General Styling */
+body {
+  background-color: bisque;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 10px;
+}
+
+h2 {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+h3 {
+  display: block;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: blueviolet;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px;
+  color: white;
+  margin: 0 auto 20px;
+}
+
+h4 {
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Content Styling */
+.content-type-class {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%; /* Each block takes 50% of the width */
+  background-color: rgb(246, 192, 111);
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.content-row {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.content-title {
+  background-color: orangered;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.content-block {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
